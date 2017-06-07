@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testcases.Travels_SignUp">
+        <methods>
+          <include name="TC_04_Register_unsuccessful_with_password_confirm_password_not_match"/>
+          <include name="TC_02_Register_unsuccessful_with_an_invalid_email"/>
+          <include name="TC_03_Register_unsuccessful_with_an_invalid_password"/>
+          <include name="TC_05_Register_successful"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_Register_unsuccessful_with_all_empty_fields"/>
+        </methods>
+      </class> <!-- testcases.Travels_SignUp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POM_net_phptravels]">
+  <listeners>
+    <listener class-name="commons.TestNGListener"/>
+  </listeners>
+  <test name="Test on FireFox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="http://www.phptravels.net/en"/>
+    <classes>
+      <class name="testcases_cloud.Travels_Bookings_cloud">
+        <methods>
+          <include name="TC_04_User_contacts_a_Offer"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testcases_cloud.Travels_Bookings_cloud -->
+    </classes>
+  </test> <!-- Test on FireFox(failed) -->
+</suite> <!-- Failed suite [POM_net_phptravels] -->

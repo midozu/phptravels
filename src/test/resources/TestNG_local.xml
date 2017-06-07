@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="POM_net_phptravels">
+	<listeners>
+		<listener class-name="commons.TestNGListener"></listener>
+	</listeners>
+
+	<test name="Test on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://www.phptravels.net/en" />
+		<classes>
+			<class name="testcases.Travels_SignUp"></class>
+			<class name="testcases.Travels_LogIn"></class>
+			<class name="testcases.Travels_Bookings"></class>
+		</classes>
+	</test>
+
+	<test name="Test on Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="http://www.phptravels.net/en" />
+		<classes>
+			<class name="testcases.Travels_SignUp"></class>
+			<class name="testcases.Travels_LogIn"></class>
+			<class name="testcases.Travels_Bookings"></class>
+		</classes>
+	</test>
+
+</suite>

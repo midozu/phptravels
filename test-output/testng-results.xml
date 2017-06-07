@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="POM_net_phptravels" duration-ms="209922" started-at="2017-06-06T16:26:39Z" finished-at="2017-06-06T16:30:09Z">
+    <groups>
+    </groups>
+    <test name="Test on Chrome" duration-ms="118340" started-at="2017-06-06T16:26:39Z" finished-at="2017-06-06T16:28:38Z">
+      <class name="testcases_cloud.Travels_Bookings_cloud">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testcases_cloud.Travels_Bookings_cloud@166fa74d]" name="beforeClass" is-config="true" duration-ms="18233" started-at="2017-06-06T23:26:39Z" finished-at="2017-06-06T23:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.phptravels.net/en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_create_an_account_and_login()[pri:0, instance:testcases_cloud.Travels_Bookings_cloud@166fa74d]" name="TC_01_create_an_account_and_login" duration-ms="9185" started-at="2017-06-06T23:26:58Z" finished-at="2017-06-06T23:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_create_an_account_and_login -->
+        <test-method status="PASS" signature="TC_02_the_Wishlist_tab_after_logging()[pri:0, instance:testcases_cloud.Travels_Bookings_cloud@166fa74d]" name="TC_02_the_Wishlist_tab_after_logging" duration-ms="5637" started-at="2017-06-06T23:27:07Z" finished-at="2017-06-06T23:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_the_Wishlist_tab_after_logging -->
+        <test-method status="PASS" signature="TC_03_User_books_Tour()[pri:0, instance:testcases_cloud.Travels_Bookings_cloud@166fa74d]" name="TC_03_User_books_Tour" duration-ms="31271" started-at="2017-06-06T23:27:12Z" finished-at="2017-06-06T23:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_User_books_Tour -->
+        <test-method status="PASS" signature="TC_04_User_contacts_a_Offer()[pri:0, instance:testcases_cloud.Travels_Bookings_cloud@166fa74d]" name="TC_04_User_contacts_a_Offer" duration-ms="16648" started-at="2017-06-06T23:27:44Z" finished-at="2017-06-06T23:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_User_contacts_a_Offer -->
+        <test-method status="PASS" signature="TC_05_User_adds_a_tour_to_Wishlist_successful()[pri:0, instance:testcases_cloud.Travels_Bookings_cloud@166fa74d]" name="TC_05_User_adds_a_tour_to_Wishlist_successful" duration-ms="13257" started-at="2017-06-06T23:28:00Z" finished-at="2017-06-06T23:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_User_adds_a_tour_to_Wishlist_successful -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases_cloud.Travels_Bookings_cloud@166fa74d]" name="afterClass" is-config="true" duration-ms="24027" started-at="2017-06-06T23:28:14Z" finished-at="2017-06-06T23:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcases_cloud.Travels_Bookings_cloud -->
+    </test> <!-- Test on Chrome -->
+    <test name="Test on FireFox" duration-ms="91529" started-at="2017-06-06T16:28:38Z" finished-at="2017-06-06T16:30:09Z">
+      <class name="testcases_cloud.Travels_SignUp_cloud">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="beforeClass" is-config="true" duration-ms="16896" started-at="2017-06-06T23:28:38Z" finished-at="2017-06-06T23:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.phptravels.net/en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_Register_unsuccessful_with_all_empty_fields()[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="TC_01_Register_unsuccessful_with_all_empty_fields" duration-ms="2641" started-at="2017-06-06T23:28:55Z" finished-at="2017-06-06T23:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register_unsuccessful_with_all_empty_fields -->
+        <test-method status="PASS" signature="TC_02_Register_unsuccessful_with_an_invalid_email()[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="TC_02_Register_unsuccessful_with_an_invalid_email" duration-ms="11489" started-at="2017-06-06T23:28:57Z" finished-at="2017-06-06T23:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Register_unsuccessful_with_an_invalid_email -->
+        <test-method status="PASS" signature="TC_03_Register_unsuccessful_with_an_invalid_password()[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="TC_03_Register_unsuccessful_with_an_invalid_password" duration-ms="12628" started-at="2017-06-06T23:29:09Z" finished-at="2017-06-06T23:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Register_unsuccessful_with_an_invalid_password -->
+        <test-method status="PASS" signature="TC_04_Register_unsuccessful_with_password_confirm_password_not_match()[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="TC_04_Register_unsuccessful_with_password_confirm_password_not_match" duration-ms="12938" started-at="2017-06-06T23:29:21Z" finished-at="2017-06-06T23:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Register_unsuccessful_with_password_confirm_password_not_match -->
+        <test-method status="PASS" signature="TC_05_Register_successful()[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="TC_05_Register_successful" duration-ms="19043" started-at="2017-06-06T23:29:34Z" finished-at="2017-06-06T23:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Register_successful -->
+        <test-method status="PASS" signature="TC_06_Register_unsuccessful_with_an_existing_email()[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="TC_06_Register_unsuccessful_with_an_existing_email" duration-ms="10096" started-at="2017-06-06T23:29:53Z" finished-at="2017-06-06T23:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_Register_unsuccessful_with_an_existing_email -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases_cloud.Travels_SignUp_cloud@701fc37a]" name="afterClass" is-config="true" duration-ms="5757" started-at="2017-06-06T23:30:03Z" finished-at="2017-06-06T23:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcases_cloud.Travels_SignUp_cloud -->
+    </test> <!-- Test on FireFox -->
+  </suite> <!-- POM_net_phptravels -->
+</testng-results>
